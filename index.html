@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand a-nav" href="index.html"><img class="avatar" src="ahmedd.jpeg" alt="Ahmed">&nbsp;</a>
+            <a class="nav-link a-nav" data-bs-toggle="modal" data-bs-target="#profile"><img class="avatar" src="ahmedd.JPG" alt="Ahmed">&nbsp;</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,7 +37,27 @@
             </div>
         </div>
     </nav>
-    <!-- Modal pop up -->
+    <!-- Modal pop up 1-->
+    <div class="modal fade" id="profile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Saleh Ahmed Mohamed</h3>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button><br>
+            </div>
+            <div class="modal-body" style="text-align: center;"><!--Modal body start--> 
+                <div class="row">
+                    <div class="col-12">
+                        <img class="profile" src="ahmedd.JPG" alt="ahmed">
+                    </div>
+                </div>
+            </div><!--Modal body end-->
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+    </div> <!--Modal login pop-up 1 end-->
+    <!-- Modal pop up 2-->
     <div class="modal fade" id="ShoppingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -45,7 +65,7 @@
               <p class="modal-title display-5">Shopping List</p>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button><br>
             </div>
-            <div class="modal-body" style="text-align: center;"><!--Modal login body start--> 
+            <div class="modal-body" style="text-align: center;"><!--Modal body start--> 
                 <div class="groceries">
                     <div class="row">
                         <div class="col-2">
@@ -57,12 +77,12 @@
                     </div><br>
                     <div id="allItems"></div>
                 </div>
-            </div><!--Modal login body end-->
+            </div><!--Modal body end-->
             <div class="modal-footer">
             </div>
           </div>
         </div>
-    </div> <!--Modal login pop-up end-->
+    </div> <!--Modal login pop-up 2 end-->
     <div class="container-fluid">
         <div class="section">
             <div class="content">
